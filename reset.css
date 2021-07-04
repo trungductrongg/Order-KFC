@@ -1,0 +1,145 @@
+video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+section{
+    display: block;
+}
+body{
+    line-height: 1;
+}
+ul{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+blockquote,q{
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{
+    content: normal;
+    content: none;
+}
+table{
+    border-collapse:collapse ;
+    border-spacing: 0;
+}
+
+img{
+    vertical-align: middle;
+    border-radius: 120px;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    font-family:"Montserrat", sans-serif ;  
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+html{
+    background:linear-gradient(135deg, #FC8060 0%, #FFCC6F 100%);
+}
+body{
+    width: 37rem;
+    min-height: 20rem;
+    box-shadow:  0px 4px 4px rgba(0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    flex-basis: 5rem;
+    background: rgba(225, 73, 36, 0.83);
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    position: relative;
+}
+.logo{
+    position: relative;
+    top: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.order{
+    flex: 1;
+    padding-top: 0.8cm;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+button{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+.order-summary{
+    padding: 0.5rem 1rem;
+    margin: 1.5rem ;
+    background: wheat;
+    border-radius:  0.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+.header{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.money{
+    float: right;
+}
+#btn-add{
+    border: 1px solid gray;
+    width: 15rem;
+    background: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+#tbn-checkout{
+    margin-left: 0.5cm;
+    margin-bottom: 0.3cm;
+    width: 13.4cm;
+    background: red;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.order-item{
+    display: flex;
+    padding: 0.2rem
+}
+.item-name{
+    flex-basis: ;
+}
+.item-quantity{
+    flex-basis:;
+
+}
+.item-price{
+    margin-left: auto;
+}
+
